@@ -6,19 +6,18 @@ A deep learning model built with TensorFlow/Keras to classify plant diseases fro
 
 [Features](https://github.com/rohitkeshri803/Plant-Disease-Predictor/blob/main/README.md#-features)
 
-Demo
 
-Technology Stack
+[Technology Stack](https://github.com/rohitkeshri803/Plant-Disease-Predictor/blob/main/README.md#%EF%B8%8F-technology-stack)
 
 Setup and Installation
 
-Usage
+[Usage](https://github.com/rohitkeshri803/Plant-Disease-Predictor/blob/main/README.md#usage)
 
-Model Architecture
+[Model Architecture](https://github.com/rohitkeshri803/Plant-Disease-Predictor/blob/main/README.md#-model-architecture)
 
-Results
+[Results](https://github.com/rohitkeshri803/Plant-Disease-Predictor/blob/main/README.md#-results)
 
-Future Improvements
+[Future Improvements](https://github.com/rohitkeshri803/Plant-Disease-Predictor/blob/main/README.md#-future-improvements)
 
 ### 📝 Overview
 This project aims to accurately identify various diseases in plants by analyzing images of their leaves. The model is trained on the PlantVillage dataset, which contains over 54,000 images of healthy and diseased plant leaves, categorized into 38 distinct classes. The entire workflow, from data acquisition to model training and prediction, is documented in the provided Jupyter Notebook.
