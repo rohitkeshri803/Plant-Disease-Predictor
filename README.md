@@ -1,7 +1,7 @@
 # Plant Disease Predictor 🌿
 A deep learning model built with TensorFlow/Keras to classify plant diseases from leaf images. This project uses a Convolutional Neural Network (CNN) to identify 38 different classes of plant diseases from the PlantVillage dataset.
 
-### 📋 Table of Contents
+## 📋 Table of Contents
 [Overview](https://github.com/rohitkeshri803/Plant-Disease-Predictor/tree/main#-overview)
 
 [Features](https://github.com/rohitkeshri803/Plant-Disease-Predictor/blob/main/README.md#-features)
@@ -9,7 +9,7 @@ A deep learning model built with TensorFlow/Keras to classify plant diseases fro
 
 [Technology Stack](https://github.com/rohitkeshri803/Plant-Disease-Predictor/blob/main/README.md#%EF%B8%8F-technology-stack)
 
-Setup and Installation
+## Setup and Installation
 
 [Usage](https://github.com/rohitkeshri803/Plant-Disease-Predictor/blob/main/README.md#usage)
 
@@ -19,10 +19,10 @@ Setup and Installation
 
 [Future Improvements](https://github.com/rohitkeshri803/Plant-Disease-Predictor/blob/main/README.md#-future-improvements)
 
-### 📝 Overview
+## 📝 Overview
 This project aims to accurately identify various diseases in plants by analyzing images of their leaves. The model is trained on the PlantVillage dataset, which contains over 54,000 images of healthy and diseased plant leaves, categorized into 38 distinct classes. The entire workflow, from data acquisition to model training and prediction, is documented in the provided Jupyter Notebook.
 
-### ✨ Features
+## ✨ Features
 Image Classification: Classifies plant leaf images into 38 different disease categories.
 
 Data Augmentation: Utilizes ImageDataGenerator for efficient data loading and real-time data augmentation.
@@ -33,7 +33,7 @@ Prediction Script: Includes a function to easily load a new image and predict it
 
 Saved Model: The trained model and class indices are saved for easy deployment and use.
 
-### 🛠️ Technology Stack 
+## 🛠️ Technology Stack 
 Python: Core programming language.
 
 TensorFlow & Keras: For building and training the deep learning model.
@@ -115,16 +115,13 @@ Run the prediction cell to see the classification result.
 
 Python
 
-# Example of making a prediction
+### Example of making a prediction
 image_path = 'path/to/your/test_image.jpg'
 predicted_class = predict_image_class(model, image_path, class_indices)
 print("Predicted Class Name:", predicted_class)
 
 
-
-
-
-### 🧠 Model Architecture
+## 🧠 Model Architecture
 The project uses a custom Convolutional Neural Network (CNN). The architecture is defined as follows:
 
 Convolutional Layer: 32 filters, (3, 3) kernel, ReLU activation.
@@ -142,14 +139,13 @@ Dense Layer: 256 neurons, ReLU activation.
 Output Layer: num_classes neurons (38), softmax activation for multi-class classification.
 
 
-### 📊 Results
+## 📊 Results
 The model was trained for 5 epochs and achieved the following performance on the validation set:
 
 Validation Accuracy: XX.XX% (You should replace this with your final accuracy, e.g., 88.32%)
 
 
-
-### 💡 Future Improvements
+## 💡 Future Improvements
 Transfer Learning: Implement a pre-trained model (like MobileNetV2 or ResNet50) to potentially achieve higher accuracy with faster training.
 
 Enhanced Data Augmentation: Apply more advanced augmentation techniques (rotation, zoom, shear) to improve model generalization.
