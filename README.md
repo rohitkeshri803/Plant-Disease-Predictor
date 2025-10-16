@@ -142,7 +142,7 @@ Output Layer: num_classes neurons (38), softmax activation for multi-class class
 ## 📊 Results
 The model was trained for 5 epochs and achieved the following performance on the validation set:
 
-Validation Accuracy: XX.XX% (You should replace this with your final accuracy, e.g., 88.32%)
+Validation Accuracy: 88.3% 
 
 
 ## 💡 Future Improvements
