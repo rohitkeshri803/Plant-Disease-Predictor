@@ -9,7 +9,7 @@ A deep learning model built with TensorFlow/Keras to classify plant diseases fro
 
 [Technology Stack](https://github.com/rohitkeshri803/Plant-Disease-Predictor/blob/main/README.md#%EF%B8%8F-technology-stack)
 
-Setup and Installation
+[Setup and Installation](https://github.com/rohitkeshri803/Plant-Disease-Predictor/tree/main#%EF%B8%8F-setup-and-installation)
 
 [Usage](https://github.com/rohitkeshri803/Plant-Disease-Predictor/blob/main/README.md#usage)
 
