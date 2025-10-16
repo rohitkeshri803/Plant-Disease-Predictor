@@ -2,7 +2,7 @@
 A deep learning model built with TensorFlow/Keras to classify plant diseases from leaf images. This project uses a Convolutional Neural Network (CNN) to identify 38 different classes of plant diseases from the PlantVillage dataset.
 
 ### 📋 Table of Contents
-Overview
+[Overview](https://github.com/rohitkeshri803/Plant-Disease-Predictor/tree/main#-overview)
 
 Features
 
